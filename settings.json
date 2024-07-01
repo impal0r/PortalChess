@@ -1,0 +1,58 @@
+{
+    "layout": {
+        "sq_size_assumption": "constant_or_max_possible",
+        "piece_size_assumption": "ratio",
+        "square_size": 100,
+        "piece_size": 80,
+        "piece_size_ratio": 0.8,
+        "heaven_width_in_sq": 2,
+        "wide_spacing": 15,
+        "narrow_spacing": 7
+    },
+    "style": {
+        "font": "bahnschrift",
+        "font_size": 21,
+        "background_colour": "#eeeeff",
+        "white_sq_colour": "white",
+        "black_sq_colour": "#d0d0d0",
+        "line_colour": "black",
+        "heaven_colour": "#77ddff",
+        "black_hole_colour": "black",
+        "portal_colours": [
+            [
+                "#FF4DFF",
+                "#D641D6"
+            ],
+            [
+                "#9C59FF",
+                "#7C4BDE"
+            ],
+            [
+                "#FF643D",
+                "#C24C2E"
+            ],
+            [
+                "#EFD64E",
+                "#D5BF42"
+            ],
+            [
+                "#95DE43",
+                "#7FBD39"
+            ]
+        ],
+        "line_width": 0
+    },
+    "display": {
+        "max_framerate": 60
+    },
+    "game": {
+        "stash_game": true,
+        "auto_undo_on": true
+    },
+    "other": {
+        "save_path": "saved_games\\saved_game.json",
+        "open_path": "saved_games\\saved_game.json",
+        "stash_path": "saved_games\\stashed_game.json",
+        "img_path": "images\\"
+    }
+}
