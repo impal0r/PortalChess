@@ -1,6 +1,8 @@
 # PortalChess
 Chess, but in Python and with portals!
 
+![Screenshot of a game of Portal Chess in action](/images/screenshot.PNG)
+
 Requirements
 
 - Windows
