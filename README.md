@@ -7,6 +7,13 @@ Requirements
 - Python 3
 - pygame
 
+Portal Chess Rules
+
+- Rooks, bishops and queens can move through a portal and keep going out the other side within a single move. They aren't allowed to move past the portal as if it's not there: they must go through it and exit the other side, if they go through it within a single move. A piece has to keep going in the same compass direction out of a portal as it came in.
+- Pawns can do this on their first move, if a portal is placed on the third rank.
+- Any piece can move onto a portal square. It then inhabits any/all of the portal squares of the same colour at the same time, and can be captured on any of them. However, it can also move off from any of them on its next move (including the one it moved onto originally).
+- The rest of the rules are the same as ordinary chess. En passants are not only allowed but encouraged.
+
 settings.json
 
 - Customise colours and layout parameters
